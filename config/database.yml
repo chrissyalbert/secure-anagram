@@ -1,0 +1,15 @@
+production:
+    url: <%= ENV['DATABASE_URL'] %>
+
+development:
+  adapter: postgresql
+  database: numerology_anagram_development
+  pool: 5
+  host: localhost
+ 
+    
+test:
+  adapter: postgresql
+  database: numerology_anagram_test
+  pool: 5
+  host: localhost

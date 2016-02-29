@@ -1,0 +1,20 @@
+The input is an array with one string inside.
+The output will be the array with one string inside. 
+The constraints are that the output includes all combinations of the array in each possible order, the input is array of strings, the input word is limited to an array of one string for the first algorithm.
+The unknowns are the other algorithms that return arrays with two strings--Which method in Ruby allows you to do this? For one string in the alogorithm, I think you can just return the contents of the array.
+Since this is the first algorithm, we're not reusing anything yet.
+The input array ["a"] should return the output array ["a"].
+
+The input is an array with two strings inside.
+The output will be an array of all possible arrays that use the same strings in all possible orders.
+The constraints are that the output includes all combinations of the array in each possible order, the input is array of strings, the input word is limited to an array of two strings for the second algorithm.
+The unknown is the Ruby method that shows the array with all possible orders of its strings.
+We can reuse the Ruby method above.
+The input array ["a", "b"] should return the output array ["b", "a"].
+
+The input is an array with three strings inside.
+The output will be an array of all possible arrays that use the same strings in all possible orders.
+The constraints are that the output includes all combinations of the array in each possible order, the input is array of strings, the input word is limited to an array of three strings for the first algorithm.
+The unknown is the Ruby method that shows the array with all possible orders of its strings.
+We can reuse the Ruby method above.
+The input array ["a", "b", "c"] should return the output arrays ["a", "c", "b"], ["b", "a", "c"], ["b", "c", "a"], ["c", "a", "b"], ["c", "b", "a"]

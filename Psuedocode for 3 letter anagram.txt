@@ -1,0 +1,5 @@
+Convert 3 letter word into an array with 3 strings. 
+Create an array of arrays of possible permutations of the order for the strings.
+In the array of arrays, convert each new array(word) into its own string.
+Check if word exists in csv file. If it is save it to array, if not, delete it.
+Print each string in the array.
