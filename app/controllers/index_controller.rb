@@ -31,7 +31,7 @@ post '/' do
         redirect "/anagrams/#{word}"
     rescue Exception => error
         @error = "Please enter a three letter word with no repeating letters."
-        erb :index
+        redirect "/"
     end
 end
 

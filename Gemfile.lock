@@ -62,8 +62,8 @@ DEPENDENCIES
   pg
   puma
   rack
-  rack-env (~> 0.1.3)
-  rack-test (~> 0.6.3)
+  rack-env
+  rack-test
   rake
   rspec
   sinatra
